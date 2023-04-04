@@ -1,5 +1,5 @@
 import java.util.*;
-class arrays
+class array
 {
     public static void main(String args[])
     {
@@ -10,9 +10,10 @@ class arrays
         int marks[]=new int[n];
         for(i=0;i<n;i++)
         {
-            marks[i]=input.nextInt;
+            marks[i]=input.nextInt();
             System.out.println(marks[i]);
 
         }
+        input.close();
     }
 }

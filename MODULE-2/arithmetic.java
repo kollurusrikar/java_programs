@@ -1,3 +1,4 @@
+import java.util.*;
 class arithmetic
 {
     Scanner input=new Scanner(System.in);
@@ -25,7 +26,7 @@ class arithmetic
     }
     public static void main(String args[])
     {
-        arith a1=new arith();
+        arithmetic a1=new arithmetic();
         a1.add();
         a1.subtract();
         a1.divide();
